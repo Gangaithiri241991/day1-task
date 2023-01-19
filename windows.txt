@@ -1,0 +1,32 @@
+A document is an object inside the window object and we use a document object for manipulation inside the document. 
+The first thing that gets loaded into the browser is the window and the properties related to that window are stored in the window object.
+The document object represent a web page that is loaded in the browser. By accessing the document object, we can access the element in the HTML page. 
+With the help of document objects, we can add dynamic content to our web page. 
+Properties of document:
+activeElement: It returns the currently active elements in the document
+body: It returns the contents of the body element.
+anchors: It returns all <a> elements that have a name attribute.
+baseURI: It returns a string value that represents the base URI of the document
+cookie: It returns the cookie of the current document.
+The lists of most commonly used methods are listed below:
+
+addEventListener(): It is used to attach an event handler to the specified element.
+adoptNode(): It is used to adopt a node from another document and it returns a node object, representing the adopted node.
+close(): It is used to close the output stream.
+createAttribute(): It is used to create an attribute node with the specified name and returns the attribute object.
+createComment(): It is used to create a comment node with some text.
+createDocumentFragment(): It is used to create the document fragment to change the content of the document.
+createElement(): It is used to create HTML element .
+createEvent(): It is used to create a new events object.
+createTextNode(): It is used to create a textnode.
+execCommand(): It is used to execute a command specified by the user on the editable selected section. It returns a Boolean value.
+fullscreenEnabled(): It is used to check whether the document can be viewed in fullscreen mode or not. It returns a boolean value.
+getElementById(): It returns the object of the given ID. If no object with that id exists then it returns null.
+getElementsByClassName(): It returns an object containing all the elements with the specified class names in the document as objects.
+getElementsByName(): It returns an object containing all the elements with the specified name in the document as objects.
+getElementsByTagName(): It returns an object containing all the elements with the specified tag names in the document as objects.
+hasFocus(): It returns a boolean value that indicates whether the document or element has focus or not.
+importNode(): It imports the copy of a node from another
+Window Object: The window object is the topmost object of the DOM hierarchy. 
+It represents a browser window or frame that displays the contents of the webpage. 
+Whenever a window appears on the screen to display the contents of the document, the window object is created. 
